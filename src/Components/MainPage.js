@@ -3,6 +3,7 @@ import '../index'
 import NavBar from "./NavBar";
 import BackgroundVideo from "./BackgroundVideo";
 import Home from "./Home";
+import Apropos from "./Apropos";
 
 function MainPage() {
     return (
@@ -10,6 +11,7 @@ function MainPage() {
             <NavBar/>
             <BackgroundVideo/>
             <Home/>
+            <Apropos/>
         </div>
     );
 }

@@ -37,9 +37,39 @@
     transition: opacity 0.3s ease;
 }
 
+.navBar.scrolled {
+    color: #FFF;
+}
+
+.navBar.scrolled a {
+    color: #FFF;
+}
+
+.navBar.scrolled hr {
+    opacity: 1;
+}
+
+.navVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+
+.navBar.scrolled .navVideo {
+    opacity: 1;
+}
+
+
+/* BACKGROUND */
 .video-section {
     position: relative;
-    height: 100vh;
     overflow: hidden;
 }
 
@@ -48,9 +78,68 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 80%;
     object-fit: cover;
     z-index: -1;
     border-bottom-left-radius: 50% 6%;
     border-bottom-right-radius: 50% 6%;
 }
+
+/* HOME */
+.home {
+    color: #FFF;
+    height: 50em;
+}
+
+.homeText {
+    margin-top: 10em;
+    text-align: center;
+}
+
+.homeText h1 {
+    font-size: 4em;
+}
+
+.homeText h2 {
+    font-size: 1.5em;
+}
+
+.iconContainer {
+    display: grid;
+    justify-content: center;
+}
+
+.buttonContainer {
+    display: grid;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.button {
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    transition: all 0.8s ease;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: white;
+    color: #617586;
+    font-weight: bold;
+}
+
+/* A PROPOS */
+
+.apropos h1 {
+    color: #332D55;
+    font-weight: bolder;
+}
+
