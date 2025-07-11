@@ -4,6 +4,8 @@ import NavBar from "./NavBar";
 import BackgroundVideo from "./BackgroundVideo";
 import Home from "./Home";
 import Apropos from "./Apropos";
+import Parcours from "./Parcours";
+import BTS from "./BTS";
 
 function MainPage() {
     return (
@@ -12,6 +14,8 @@ function MainPage() {
             <BackgroundVideo/>
             <Home/>
             <Apropos/>
+            <BTS/>
+            <Parcours/>
         </div>
     );
 }

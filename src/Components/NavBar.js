@@ -11,10 +11,10 @@ function NavBar() {
                 </video>
                 <div className="navBarLinks">
                     <a href="#">Accueil</a>
-                    <a href="#">A propos</a>
+                    <a href="#apropos">A propos</a>
                     <a href="#">Parcours</a>
-                    <a href="#">Epreuve 5</a>
-                    <a href="#">Epreuve 6</a>
+                    <a href="#">Epreuves</a>
+                    <a href="#entreprise">Entreprise</a>
                     <a href="#">Veille Technologique</a>
                     <a href="#">Contact</a>
                 </div>
