@@ -12,13 +12,11 @@ import 'boxicons'
 function Home() {
     return (
         <div>
-            <div className={"home"}>
+            <div className={"home"} id={"home"}>
                 <img src={ellipseS} className={"ellipseSmall"} alt={"Background"}/>
 
-                {/* Logo à gauche */}
                 <img src={logo} className={"moonLogo"} alt={"Moon Logo"}/>
 
-                {/* Contenu à droite */}
                 <div className={"homeContent"}>
                     <div className={"homeText"}>
                         <h1>Anissa Dahabi</h1>

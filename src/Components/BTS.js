@@ -17,12 +17,12 @@ function BTS() {
             <p>Le Brevet de Technicien Supérieur aux Services Informatiques aux Organisations (BTS SIO) est un programme
                 de niveau <span className={"bold"}>bac +2</span> et s'adresse aux personnes qui souhaitent se former en
                 deux ans aux métiers d'<span className={"bold"}>administrateur réseau</span> ou de <span className={"bold"}>
-                    développeur</span>. <br/>
+                    développeur</span>. <br/><br/>
                 Il peut-être réalisable soit en <span className={"bold"}>alternance</span> d'une durée de 12 ou de
                 24 mois ou alors en <span className={"bold"}>initial</span> avec minimum 10 semaines de stages
                 obligatoire en entreprise d’une durée de 2 à 3 mois, afin de s'initier aux réalités du domaine
                 professionnel.</p>
-            <p>Le BTS SIO propose deux <span className={"bold"}>spécialités</span> :</p>
+            <p><b>Le BTS SIO propose deux <span className={"bold"}>spécialités</span> : </b></p>
             <div className={"specs"}>
                 <div className={"SISR"}>
                     <img src={server} className={"btsLogo"} alt={"Server Logo"}/>
@@ -44,6 +44,9 @@ function BTS() {
                         <li>Tests et déploiement des <span className={"bold"}>solutions logicielles</span></li>
                     </ul>
                 </div>
+            </div>
+            <div className={"buttonContainerBTS"}>
+                <a href={"#epreuves"} className={"button"}>Epreuves 5 et 6</a>
             </div>
         </div>
     );

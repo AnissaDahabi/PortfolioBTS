@@ -5,6 +5,10 @@
     position: relative;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -16,6 +20,7 @@ body {
 /* NAVBAR */
 .homeButton {
     height: 4em;
+    cursor: pointer;
 }
 
 .navBar {
@@ -46,6 +51,14 @@ body {
     z-index: 3;
     position: relative;
     transition: all 0.3s ease;
+}
+
+.navBar a.active {
+    color: #C498FC;
+}
+
+.navBar a.active::after {
+    width: calc(100% - 2em);
 }
 
 .navBar a:hover {
@@ -166,7 +179,7 @@ body {
     font-weight: bold;
     padding: 0.5em 1em 0.5em 1em;
     border-radius: 30px;
-    transition: all 0.3s ease;
+    transition: all 0.8s ease;
 }
 
 .button:hover {
@@ -184,11 +197,11 @@ body {
 .bts .ellipseCenter {
     position: absolute;
     margin: 0;
-    top: 45%;
+    top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 60em;
-    width: 150em;
+    height: 65em;
+    width: 170em;
     z-index: 0;
 }
 
@@ -212,21 +225,22 @@ body {
     font-size: 2em;
 }
 
-.bts h1, .bts p, .bts li {
+.bts h1, .bts p, .bts li, .bts span, .bts b {
     background-color: transparent;
 }
 
 .bts p {
-    font-size: 1.2em;
+    font-size: 1.3em;
+    padding: 1em 3.5em 0 3.5em;
 }
-
 
 .specs {
     background-color: transparent;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 1em;
+    gap: 3em;
+    padding-top: 1em;
 }
 
 .SISR, .SLAM, .SISR h3, .SLAM h3, .SISR ul, .SLAM ul, .SISR span, .SLAM span {
@@ -237,15 +251,32 @@ body {
     background-color: RGB(113, 82, 151, .3);
     border-radius: 30px;
     padding: 1em;
+    display: grid;
     justify-items: center;
+    height: 25em;
+    width: 25em;
 }
 
 .SISR h3, .SLAM h3 {
     color: #C5B0E6;
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.SISR ul, .SLAM ul {
+    font-size: 1.2em;
 }
 
 .btsLogo {
     height: 4em;
     background-color: transparent;
     justify-items: center;
+}
+
+.buttonContainerBTS {
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    padding: 3em;
+    background-color: transparent;
 }
