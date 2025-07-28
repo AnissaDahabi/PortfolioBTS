@@ -46,13 +46,7 @@ function BTS() {
                 </div>
             </div>
             <div className={"buttonContainerBTS"}>
-                <a href={"#epreuves"} className={"button"}
-                   onClick={() => {
-                       const epreuvesSection = document.querySelector('#epreuves');
-                       if (epreuvesSection) {
-                           epreuvesSection.scrollIntoView({ behavior: 'smooth' });
-                       }
-                   }}>Epreuves 5 et 6</a>
+                <a href={"/epreuves"} className={"button"}>Epreuves 5 et 6</a>
             </div>
         </div>
     );

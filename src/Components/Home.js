@@ -25,7 +25,7 @@ function Home() {
                             sein de l'<span className={"bold"}>EFREI</span>, grande
                             école d'ingénieurs, j'ai choisi l'option <span className={"bold"}>SLAM</span> (Solutions Logicielles
                             et Applications Métiers) dans le
-                            but d'un jour devenir développeuse spécialisée en Java</p>
+                            but d'appronfondir mes connaissances en développement</p>
                         <p>J'effectue ces études en tant qu'<span className={"bold"}>IT Support Analyst</span> chez
                             <span className={"bold"}> Corum L'Epargne </span></p>
                     </div>

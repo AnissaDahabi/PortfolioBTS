@@ -2,10 +2,13 @@ import '../Assets/StyleSheets/style.css';
 import homeButton from "../Assets/Images/homeButton.png";
 import '../index'
 import React, { useState, useEffect } from "react";
+import { useNavigate, useLocation } from 'react-router-dom';
 
 function NavBar() {
     const [activeSection, setActiveSection] = useState('home');
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const navigate = useNavigate();
+    const location = useLocation();
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -27,7 +30,6 @@ function NavBar() {
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
-        // Empêcher le scroll quand le menu est ouvert
         document.body.classList.toggle('menu-open', !isMenuOpen);
     };
 
@@ -37,11 +39,21 @@ function NavBar() {
     };
 
     const handleLinkClick = (sectionId) => {
-        closeMenu();
-        const section = document.querySelector(sectionId);
-        if (section) {
-            section.scrollIntoView({ behavior: 'smooth' });
+        if (location.pathname !== '/PortfolioBTS') {
+            navigate('/PortfolioBTS');
+            setTimeout(() => {
+                const section = document.querySelector(sectionId);
+                if (section) {
+                    section.scrollIntoView({ behavior: 'smooth' });
+                }
+            }, 300);
+        } else {
+            const section = document.querySelector(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
         }
+        closeMenu();
     };
 
     return (
@@ -52,14 +64,23 @@ function NavBar() {
                 alt="Home Button"
                 onClick={() => {
                     closeMenu();
-                    const homeSection = document.querySelector('#home');
-                    if (homeSection) {
-                        homeSection.scrollIntoView({ behavior: 'smooth' });
+                    if (location.pathname !== '/PortfolioBTS') {
+                        navigate('/PortfolioBTS');
+                        setTimeout(() => {
+                            const homeSection = document.querySelector('#home');
+                            if (homeSection) {
+                                homeSection.scrollIntoView({ behavior: 'smooth' });
+                            }
+                        }, 300);
+                    } else {
+                        const homeSection = document.querySelector('#home');
+                        if (homeSection) {
+                            homeSection.scrollIntoView({ behavior: 'smooth' });
+                        }
                     }
                 }}
             />
 
-            {/* Menu hamburger */}
             <div className={`hamburger ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
                 <span></span>
                 <span></span>
@@ -78,11 +99,12 @@ function NavBar() {
                     BTS
                 </a>
                 <a
-                    href="#epreuves"
-                    className={activeSection === "epreuves" ? "active" : ""}
+                    href="/epreuves"
+                    className={location.pathname === "/epreuves" ? "active" : ""}
                     onClick={(e) => {
                         e.preventDefault();
-                        handleLinkClick('#epreuves');
+                        navigate('/epreuves');
+                        closeMenu();
                     }}
                 >
                     Epreuves
