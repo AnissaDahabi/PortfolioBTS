@@ -17,6 +17,19 @@ body {
     color: #C5B0E6;
 }
 
+.mainTitle {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    color: #C5B0E6;
+    padding: 1em;
+}
+
+.mainTitle h1 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
 /* NAVBAR */
 .homeButton {
     height: 4em;
@@ -280,3 +293,6 @@ body {
     padding: 3em;
     background-color: transparent;
 }
+
+/* PARCOURS */
+

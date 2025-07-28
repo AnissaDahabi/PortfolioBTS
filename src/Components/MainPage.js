@@ -4,6 +4,8 @@ import NavBar from "./NavBar";
 import Home from "./Home";
 import Parcours from "./Parcours";
 import BTS from "./BTS";
+import Entreprise from "./Entreprise";
+import Veille from "./Veille";
 
 function MainPage() {
     return (
@@ -11,6 +13,9 @@ function MainPage() {
             <NavBar/>
             <Home/>
             <BTS/>
+            <Parcours/>
+            <Entreprise/>
+            <Veille/>
         </div>
     );
 }

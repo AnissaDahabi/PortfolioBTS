@@ -1,17 +1,18 @@
 import '../Assets/StyleSheets/style.css';
+import React from "react";
 import '../index'
 import star from "../Assets/Images/star.png";
-import React from "react";
 
-function Parcours() {
+function Entreprise () {
     return (
-        <div className={"parcours"} id={"parcours"}>
+        <div id={"entreprise"}>
             <div className={"mainTitle"}>
                 <img src={star} className={"star"} alt={"Star"}/>
-                <h1>Mon parcours</h1>
+                <h1>Entreprise</h1>
             </div>
+
         </div>
-    );
+    )
 }
 
-export default Parcours;
+export default Entreprise;
