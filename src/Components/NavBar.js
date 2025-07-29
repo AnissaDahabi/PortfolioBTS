@@ -99,17 +99,6 @@ function NavBar() {
                     BTS
                 </a>
                 <a
-                    href="/epreuves"
-                    className={location.pathname === "/epreuves" ? "active" : ""}
-                    onClick={(e) => {
-                        e.preventDefault();
-                        navigate('/epreuves');
-                        closeMenu();
-                    }}
-                >
-                    Epreuves
-                </a>
-                <a
                     href="#parcours"
                     className={activeSection === "parcours" ? "active" : ""}
                     onClick={(e) => {
@@ -138,6 +127,17 @@ function NavBar() {
                     }}
                 >
                     Veille Technologique
+                </a>
+                <a
+                    href="/epreuves"
+                    className={location.pathname === "/epreuves" ? "active" : ""}
+                    onClick={(e) => {
+                        e.preventDefault();
+                        navigate('/epreuves');
+                        closeMenu();
+                    }}
+                >
+                    Epreuves
                 </a>
             </div>
         </div>
