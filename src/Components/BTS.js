@@ -19,8 +19,8 @@ function BTS() {
                 deux ans aux métiers d'<span className={"bold"}>administrateur réseau</span> ou de <span className={"bold"}>
                     développeur</span>. <br/><br/>
                 Il peut-être réalisable soit en <span className={"bold"}>alternance</span> d'une durée de 12 ou de
-                24 mois ou alors en <span className={"bold"}>initial</span> avec minimum 10 semaines de stages
-                obligatoire en entreprise d’une durée de 2 à 3 mois, afin de s'initier aux réalités du domaine
+                24 mois ou alors en <span className={"bold"}>initial</span> avec minimum 10 semaines de stage
+                obligatoire en entreprise, afin de s'initier aux réalités du domaine
                 professionnel.</p>
             <p><b>Le BTS SIO propose deux <span className={"bold"}>spécialités</span> : </b></p>
             <div className={"specs"}>

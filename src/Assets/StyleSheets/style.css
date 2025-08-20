@@ -274,6 +274,7 @@ body {
     color: #C5B0E6;
     margin-top: 0;
     font-size: 1.5em;
+    font-weight: bold;
 }
 
 .SISR ul, .SLAM ul {
@@ -295,14 +296,59 @@ body {
 }
 
 /* EPREUVES */
-
 .mainTitle {
     padding-top: 5em;
 }
 
-.content {
-    padding-left: 4em;
+.E5 h3, .E6 h3 {
+    padding: 1em 3em 0 3em;
 }
 
-/* PARCOURS */
+.E5 p, .E6 p {
+        font-size: 1.3em;
+        padding: 1em 3.5em 0 3.5em;
+}
 
+.E5 li, .E6 li {
+    font-size: 1.1em;
+    padding: 1em 3.5em 0 3.5em;
+}
+
+.E5 ul, .E6 ul {
+    padding: 0 0 0 7em;
+}
+
+.E5 a {
+    font-size: 1.3em;
+    padding: 1em 3.5em 0 3.5em;
+}
+
+    /* PARCOURS */
+
+
+/* ENTREPRISE */
+#entreprise p {
+    font-size: 1.3em;
+    padding: 1em 1em 0 3.5em;
+}
+
+#entreprise h3 {
+    font-size: 1.5em;
+    padding: 1em 3.5em 0 3.5em;
+}
+
+/* VEILLE */
+#veille p {
+    font-size: 1.3em;
+    padding: 1em 3.5em 0 3.5em;
+}
+
+@media screen and (min-width: 2000px) {
+    .bts .ellipseCenter {
+        top: 35%;
+        left: 50%;
+        height: 70em;
+        width: 210em;
+
+    }
+}
