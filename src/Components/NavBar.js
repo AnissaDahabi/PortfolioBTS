@@ -106,7 +106,7 @@ function NavBar() {
                         handleLinkClick('#parcours');
                     }}
                 >
-                    Parcours
+                    Expériences Professionnelles
                 </a>
                 <a
                     href="#entreprise"

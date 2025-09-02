@@ -3,7 +3,7 @@ import '../index'
 import { Routes, Route } from "react-router-dom";
 import NavBar from "./NavBar";
 import Home from "./Home";
-import Parcours from "./Parcours";
+import ExpPro from "./ExpPro";
 import BTS from "./BTS";
 import Entreprise from "./Entreprise";
 import Veille from "./Veille";
@@ -17,7 +17,7 @@ function MainPage() {
                     <NavBar />
                     <Home />
                     <BTS />
-                    <Parcours />
+                    <ExpPro />
                     <Entreprise />
                     <Veille />
                 </>

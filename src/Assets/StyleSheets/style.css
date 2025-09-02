@@ -364,17 +364,76 @@ body {
 }
 
 /* PARCOURS */
-
-
-/* ENTREPRISE */
-#entreprise p {
-    font-size: 1.3em;
-    padding: 1em 1em 0 3.5em;
+.parcoursContent {
+    padding-left: 3.5em;
 }
 
-#entreprise h3 {
+.parcoursContent hr {
+    width: 60%;
+}
+
+.parcoursContent h2 {
     font-size: 1.5em;
-    padding: 1em 3.5em 0 3.5em;
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+.parcoursContent h3 {
+    font-size: 1.3em;
+    color: #C5B0E6;
+}
+
+.parcoursContent p {
+    padding: 0.5em 0 0.5em 0;
+    font-size: 1.1em;
+}
+
+/* ENTREPRISE */
+#entreprise {
+    padding: 2em 1em;
+    font-family: 'Arial', sans-serif;
+    color: #0D1B2A;
+}
+
+#entrepriseContent {
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+    padding-left: 3.5em;
+}
+
+.corumContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.corumContent h3 {
+    font-size: 1.5em;
+}
+
+.corumContent p {
+    font-size: 1.1em;
+}
+
+.corumContent ul {
+    margin-left: 1.5em;
+    font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+    #entrepriseContent {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .corumContent ul {
+        margin-left: 0;
+        padding-left: 0;
+        list-style-position: inside;
+    }
 }
 
 /* VEILLE */
