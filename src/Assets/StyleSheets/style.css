@@ -94,13 +94,15 @@ body {
 
 /* HOME */
 .home {
-    min-height: 90vh;
+    min-height: 84vh;
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 2em;
     padding: 2em;
     background-color: transparent;
+    position: relative;
 }
 
 .moonLogo {
@@ -108,8 +110,8 @@ body {
     z-index: 1;
     background-color: transparent;
     flex-shrink: 0;
-    padding-left: 5em;
-    padding-right: 4em;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .home .ellipseSmall {
@@ -117,8 +119,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 40em;
-    width: 40em;
+    height: 30em;
+    width: 30em;
     z-index: 1;
 }
 
@@ -126,6 +128,8 @@ body {
     position: relative;
     z-index: 2;
     flex: 1;
+    max-width: 40em;
+    text-align: left;
     background-color: transparent;
 }
 
@@ -180,7 +184,8 @@ body {
     display: flex;
     justify-content: center;
     z-index: 2;
-    margin-bottom: 2em;
+    margin-top: 3em;
+    margin-bottom: 0em;
     background-color: transparent;
 }
 
@@ -295,6 +300,41 @@ body {
     background-color: transparent;
 }
 
+
+.bts {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.bts::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+            radial-gradient(circle at left center, rgba(74, 67, 103, 0.45), transparent 50%),
+            radial-gradient(circle at right center, rgba(74, 67, 103, 0.45), transparent 50%),
+            #080E21;
+
+    border-top-left-radius: 100% 20vh;
+    border-top-right-radius: 100% 20vh;
+    border-bottom-left-radius: 100% 20vh;
+    border-bottom-right-radius: 100% 20vh;
+
+    border-top: 1px solid rgba(206, 176, 230, 0.2);
+    border-bottom: 1px solid rgba(206, 176, 230, 0.2);
+    border-left: 0;
+    border-right: 0;
+
+    z-index: 0;
+}
+
+.bts > * {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
 /* EPREUVES */
 .mainTitle {
     padding-top: 5em;
@@ -323,7 +363,7 @@ body {
     padding: 1em 3.5em 0 3.5em;
 }
 
-    /* PARCOURS */
+/* PARCOURS */
 
 
 /* ENTREPRISE */
@@ -341,14 +381,4 @@ body {
 #veille p {
     font-size: 1.3em;
     padding: 1em 3.5em 0 3.5em;
-}
-
-@media screen and (min-width: 2000px) {
-    .bts .ellipseCenter {
-        top: 35%;
-        left: 50%;
-        height: 70em;
-        width: 210em;
-
-    }
 }

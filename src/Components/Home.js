@@ -50,9 +50,6 @@ function Home() {
                 </div>
 
             </div>
-            <div className={"buttonContainer"}>
-                <a href={"#bts"} className={"button"}>En savoir plus</a>
-            </div>
         </div>
     );
 }

@@ -9,7 +9,9 @@ import dev from "../Assets/Images/devLogo.png";
 function BTS() {
     return (
         <div className={"bts"} id={"bts"}>
-            <img src={ellipseC} className={"ellipseCenter"} alt={"Background"}/>
+            <div className={"buttonContainer"}>
+                <a href={"#bts"} className={"button"}>En savoir plus</a>
+            </div>
             <div className={"btsTitle"}>
                 <img src={star} className={"star"} alt={"Star"}/>
                 <h1>Qu'est-ce que le BTS SIO?</h1>
