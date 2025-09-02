@@ -1,0 +1,354 @@
+* {
+    background-color:#050E24;
+    color: #FFF;
+    font-family: "Manrope", sans-serif;
+    position: relative;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.bold {
+    color: #C5B0E6;
+}
+
+.mainTitle {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    color: #C5B0E6;
+    padding: 1em;
+}
+
+.mainTitle h1 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/* NAVBAR */
+.homeButton {
+    height: 4em;
+    cursor: pointer;
+}
+
+.navBar {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #050E24;
+    z-index: 3;
+    width: 100%;
+    padding: 0 1em;
+}
+
+.navBarLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navBar a {
+    color: #A297B4;
+    font-weight: bold;
+    text-decoration: none;
+    justify-content: flex-end;
+    padding: 0 1em 0 1em;
+    z-index: 3;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.navBar a.active {
+    color: #C498FC;
+}
+
+.navBar a.active::after {
+    width: calc(100% - 2em);
+}
+
+.navBar a:hover {
+    color: #C498FC;
+}
+
+.navBar a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 1em;
+    width: 0;
+    height: 2px;
+    background-color: #C498FC;
+    transition: width 0.3s ease;
+}
+
+.navBar a:hover::after {
+    width: calc(100% - 2em);}
+
+/* HOME */
+.home {
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+    background-color: transparent;
+}
+
+.moonLogo {
+    height: 14em;
+    z-index: 1;
+    background-color: transparent;
+    flex-shrink: 0;
+    padding-left: 5em;
+    padding-right: 4em;
+}
+
+.home .ellipseSmall {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40em;
+    width: 40em;
+    z-index: 1;
+}
+
+.homeText {
+    position: relative;
+    z-index: 2;
+    flex: 1;
+    background-color: transparent;
+}
+
+.homeText h1, .homeText h2, .homeText p, .homeText span {
+    background-color: transparent;
+}
+
+.homeText h1, .homeText h2 {
+    font-weight: 900;
+    padding: 0.1em;
+}
+
+.home p {
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0.3em 2em 0.3em 0.3em;
+}
+
+.logo {
+    height: 2.5em;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.homeContent {
+    background-color: transparent;
+}
+
+.iconContainer {
+    z-index: 2;
+    margin-top: 2em;
+    background-color: transparent;
+}
+
+.socials {
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.iconContainer li {
+    background-color: transparent;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    margin-bottom: 2em;
+    background-color: transparent;
+}
+
+.button {
+    background-color: #332941;
+    border: 2px solid #E3D5F8;
+    color: #E3D5F8;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 30px;
+    transition: all 0.8s ease;
+}
+
+.button:hover {
+    background-color: #E3D5F8;
+    color: #332941;
+    font-weight: bold;
+}
+
+/* BTS */
+.bts {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.bts .ellipseCenter {
+    position: absolute;
+    margin: 0;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 65em;
+    width: 170em;
+    z-index: 0;
+}
+
+.star {
+    height: 2.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+    background-color: transparent;
+}
+
+.btsTitle {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    color: #C5B0E6;
+    padding-top: 5em;
+}
+
+.btsTitle h1 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.bts h1, .bts p, .bts li, .bts span, .bts b {
+    background-color: transparent;
+}
+
+.bts p {
+    font-size: 1.3em;
+    padding: 1em 3.5em 0 3.5em;
+}
+
+.specs {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3em;
+    padding-top: 1em;
+}
+
+.SISR, .SLAM, .SISR h3, .SLAM h3, .SISR ul, .SLAM ul, .SISR span, .SLAM span {
+    background-color: transparent;
+}
+
+.SISR, .SLAM {
+    background-color: RGB(113, 82, 151, .3);
+    border-radius: 30px;
+    padding: 1em;
+    display: grid;
+    justify-items: center;
+    height: 25em;
+    width: 25em;
+}
+
+.SISR h3, .SLAM h3 {
+    color: #C5B0E6;
+    margin-top: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.SISR ul, .SLAM ul {
+    font-size: 1.2em;
+}
+
+.btsLogo {
+    height: 4em;
+    background-color: transparent;
+    justify-items: center;
+}
+
+.buttonContainerBTS {
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    padding: 3em;
+    background-color: transparent;
+}
+
+/* EPREUVES */
+.mainTitle {
+    padding-top: 5em;
+}
+
+.E5 h3, .E6 h3 {
+    padding: 1em 3em 0 3em;
+}
+
+.E5 p, .E6 p {
+        font-size: 1.3em;
+        padding: 1em 3.5em 0 3.5em;
+}
+
+.E5 li, .E6 li {
+    font-size: 1.1em;
+    padding: 1em 3.5em 0 3.5em;
+}
+
+.E5 ul, .E6 ul {
+    padding: 0 0 0 7em;
+}
+
+.E5 a {
+    font-size: 1.3em;
+    padding: 1em 3.5em 0 3.5em;
+}
+
+    /* PARCOURS */
+
+
+/* ENTREPRISE */
+#entreprise p {
+    font-size: 1.3em;
+    padding: 1em 1em 0 3.5em;
+}
+
+#entreprise h3 {
+    font-size: 1.5em;
+    padding: 1em 3.5em 0 3.5em;
+}
+
+/* VEILLE */
+#veille p {
+    font-size: 1.3em;
+    padding: 1em 3.5em 0 3.5em;
+}
+
+@media screen and (min-width: 2000px) {
+    .bts .ellipseCenter {
+        top: 35%;
+        left: 50%;
+        height: 70em;
+        width: 210em;
+
+    }
+}
