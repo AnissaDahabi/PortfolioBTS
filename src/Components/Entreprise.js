@@ -40,7 +40,7 @@ function Entreprise () {
                         </span> clients.</p>
 
                     <h3>Mon expérience</h3>
-                    <p>J'ai réalisé mon alternance de <span className={"bold"}>deux ans</span> au sein de l'entreprise.
+                    <p>J'ai réalisé mon <span className={"bold"}>alternance de deux ans</span> au sein de l'entreprise.
                         J'ai commencé en tant qu’<span className={"bold"}>IT Support Analyst</span>, puis j'ai rejoint
                         le <span className={"bold"}>pôle cybersécurité</span>. Cela m'a permis de comprendre les
                         enjeux IT et de contribuer à la protection des infrastructures et des données sensibles.</p>
