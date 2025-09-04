@@ -10,9 +10,9 @@ function BTS() {
     return (
         <div className={"bts"} id={"bts"}>
             <div className={"buttonContainer"}>
-                <a href={"#bts"} className={"button"}>En savoir plus</a>
+                <a href={"#btsTitle"} className={"button"}>En savoir plus</a>
             </div>
-            <div className={"btsTitle"}>
+            <div className={"btsTitle"} id={"btsTitle"}>
                 <img src={star} className={"star"} alt={"Star"}/>
                 <h1>Qu'est-ce que le BTS SIO?</h1>
             </div>
