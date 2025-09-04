@@ -185,7 +185,7 @@ body {
     justify-content: center;
     z-index: 2;
     margin-top: 3em;
-    margin-bottom: 0em;
+    margin-bottom: 0;
     background-color: transparent;
 }
 
@@ -241,6 +241,7 @@ body {
 .btsTitle h1 {
     font-weight: bold;
     font-size: 2em;
+    color: #C5B0E6;
 }
 
 .bts h1, .bts p, .bts li, .bts span, .bts b {
