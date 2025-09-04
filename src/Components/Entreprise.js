@@ -34,9 +34,9 @@ function Entreprise () {
                     </ul>
 
                     <h3>Valeurs et engagement</h3>
-                    <p>Le groupe place l’<span className={"bold"}>engagement, la transparence et l’innovation</span>
+                    <p>Le groupe place l’<span className={"bold"}>engagement, la transparence et l’innovation </span>
                         au cœur de sa stratégie. Chaque collaborateur s'investit pour offrir des <span className={"bold"}>
-                        solutions financières</span>performantes et un <span className={"bold"}>suivi personnalisé
+                        solutions financières</span> performantes et un <span className={"bold"}>suivi personnalisé
                         </span> clients.</p>
 
                     <h3>Mon expérience</h3>
