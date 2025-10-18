@@ -13,14 +13,21 @@ function ExpPro() {
             <div className={"parcoursContent"}>
                 <h2>Cybersecurity apprentice</h2>
                 <h3>Corum l’Epargne - de Septembre 2025 à Janvier 2026</h3>
-                <p>Analyser les alertes de sécurité générées par les logiciels SIEM (Security Information and Event
-                    Management) <br/> Participer aux audits de sécurité pour identifier les vulnérabilités<br/>
-                    Documenter les incidents et proposer des mesures correctives</p>
+                <p>Déploiement de mises à jour correctives (patch management) pour combler les failles de sécurité sur
+                    les postes de travail <br/> Conception et envoi de campagnes de phishing interne pour tester la
+                    vigilance des collaborateurs <br/>  Communication pédagogique auprès des équipes : sensibilisation
+                    aux bonnes pratiques de cybersécurité et débriefings post-campagnes <br/> Rédaction et mise à jour
+                    de documentation de sécurité informatique (guides, procédures, supports de sensibilisation) <br/>
+                    Monitoring des incidents et alertes de cybersécurité, avec remontée et traitement en collaboration
+                    avec l’équipe IT</p>
                 <hr/>
                 <h2>IT Support Analyst</h2>
                 <h3>Corum l’Epargne - de Septembre 2024 à Aout 2025</h3>
-                <p>Résolution de tickets <br/> Onboardings des nouveaux arrivants <br/> Rédaction de rapports
-                    d’intervention et documentation des logiciels d’entreprise</p>
+                <p>Gestion et résolution de tickets utilisateurs (niveau 1 et 2) <br/> Onboarding des nouveaux arrivants
+                    : accueil, présentation du matériel et des bonnes pratiques de sécurité, assistance à la connexion
+                    aux logiciels et outils internes <br/> Configuration des postes de travail, création et gestion des
+                    accès utilisateurs <br/> Rédaction et mise à jour de la documentation technique et des rapports
+                    d’intervention <br/> Contribution à l’amélioration continue des processus de support IT </p>
             </div>
         </div>
     );

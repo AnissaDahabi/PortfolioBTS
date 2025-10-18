@@ -1,10 +1,11 @@
 import '../Assets/StyleSheets/style.css';
 import '../index'
 import React from "react";
-import ellipseC from "../Assets/Images/ellipseCenter.png";
 import star from "../Assets/Images/star.png";
 import server from "../Assets/Images/serverLogo.png";
 import dev from "../Assets/Images/devLogo.png";
+import { Link } from "react-router-dom";
+
 
 function BTS() {
     return (
@@ -48,7 +49,7 @@ function BTS() {
                 </div>
             </div>
             <div className={"buttonContainerBTS"}>
-                <a href={"/epreuves"} className={"button"}>Epreuves 5 et 6</a>
+                <a><Link to="/epreuves" className="button">Epreuves 5 et 6</Link></a>
             </div>
         </div>
     );
