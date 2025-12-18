@@ -44,6 +44,8 @@ body {
     align-items: center;
     background-color: #050E24;
     z-index: 3;
+    top: 0;
+    left: 0;
     width: 100%;
     padding: 0 1em;
 }
@@ -53,6 +55,7 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    margin-right: 5em;
 }
 
 .navBar a {
@@ -178,6 +181,7 @@ body {
 
 .iconContainer li {
     background-color: transparent;
+    list-style: none;
 }
 
 .buttonContainer {
@@ -210,6 +214,7 @@ body {
 .bts {
     min-height: 100vh;
     width: 100%;
+    margin-top: -5em;
 }
 
 .bts .ellipseCenter {
@@ -281,10 +286,22 @@ body {
     margin-top: 0;
     font-size: 1.5em;
     font-weight: bold;
+    margin-bottom: -0.5em;
 }
 
 .SISR ul, .SLAM ul {
     font-size: 1.2em;
+    list-style: none;
+}
+
+.SISR li::before, .SLAM li::before {
+    content: ">";
+    font-weight: bold;
+    margin-right: 0.5em;
+}
+
+.SISR li, .SLAM li {
+    margin-top: 0.5em;
 }
 
 .btsLogo {
@@ -346,8 +363,8 @@ body {
 }
 
 .E5 p, .E6 p {
-        font-size: 1.3em;
-        padding: 1em 3.5em 0 3.5em;
+    font-size: 1.3em;
+    padding: 1em 3.5em 0 3.5em;
 }
 
 .E5 li, .E6 li {
@@ -371,6 +388,11 @@ body {
 
 .parcoursContent hr {
     width: 60%;
+    border-top: 1px solid;
+    border-top: var(--bs-border-width) solid;
+    color: inherit;
+    margin: 1rem 0;
+    opacity: .25;
 }
 
 .parcoursContent h2 {
@@ -384,9 +406,16 @@ body {
     color: #C5B0E6;
 }
 
-.parcoursContent p {
+.parcoursContent li {
     padding: 0.5em 0 0.5em 0;
     font-size: 1.1em;
+    list-style: none;
+}
+.parcoursContent li::before {
+    content: ">";
+    font-weight: bold;
+    margin-right: 0.5em;
+    color: #C5B0E6;
 }
 
 /* ENTREPRISE */
