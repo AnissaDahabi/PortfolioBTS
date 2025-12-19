@@ -21,6 +21,12 @@ body {
     color: #C5B0E6;
 }
 
+.homeContainer {
+    padding-left: 10em;
+    padding-right: 10em;
+    margin: 0 auto;
+}
+
 .mainTitle {
     background-color: transparent;
     display: flex;
@@ -618,6 +624,18 @@ body {
 .corumContent ul {
     margin-left: 1.5em;
     font-size: 1.2em;
+}
+
+.grid-item li {
+    list-style: none;
+    margin-left: -3em;
+}
+
+.grid-item li::before {
+    content: ">";
+    font-weight: bold;
+    margin-right: 0.5em;
+    color: #C498FC;
 }
 
 @media (max-width: 768px) {
