@@ -24,7 +24,16 @@ body {
 .homeContainer {
     padding-left: 10em;
     padding-right: 10em;
+    max-width: 1600px;
     margin: 0 auto;
+}
+
+.btsContainer {
+    padding-left: 5em;
+    padding-right: 5em;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: transparent;
 }
 
 .mainTitle {
