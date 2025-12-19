@@ -424,7 +424,7 @@ body {
     margin-top: 3em;
 }
 
-.terminal-card:hover, .btn:hover {
+.btn:hover {
     transform: translateY(-5px);
     box-shadow: 0 0 25px rgba(196, 152, 252, 0.4);
 }
