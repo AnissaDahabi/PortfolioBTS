@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607cb9c0-ae8e-4c9a-ae86-7f3a8a57a1b0" name="Changes" comment="edited BTS.js">
-      <change afterPath="$PROJECT_DIR$/Assets/PDFs/tableauSynthese.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlocCompetences/DevPres.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlocCompetences/GererPat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlocCompetences/MettreDis.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlocCompetences/OrgDevPro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlocCompetences/RepInc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlocCompetences/TravProj.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/epreuve6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StyleSheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StyleSheets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/epreuves.html" beforeDir="false" afterPath="$PROJECT_DIR$/epreuve5.html" afterDir="false" />
+    <list default="true" id="607cb9c0-ae8e-4c9a-ae86-7f3a8a57a1b0" name="Changes" comment="Approfondissement de l'épreuve E5">
+      <change beforePath="$PROJECT_DIR$/BlocCompetences/DevPres.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlocCompetences/DevPres.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlocCompetences/GererPat.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlocCompetences/GererPat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlocCompetences/MettreDis.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlocCompetences/MettreDis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlocCompetences/OrgDevPro.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlocCompetences/OrgDevPro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlocCompetences/RepInc.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlocCompetences/RepInc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlocCompetences/TravProj.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlocCompetences/TravProj.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epreuve5.html" beforeDir="false" afterPath="$PROJECT_DIR$/epreuve5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epreuve6.html" beforeDir="false" afterPath="$PROJECT_DIR$/epreuve6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/veille.html" beforeDir="false" afterPath="$PROJECT_DIR$/veille.html" afterDir="false" />
     </list>
@@ -104,7 +102,7 @@
       <workItem from="1756992132783" duration="1632000" />
       <workItem from="1756994597268" duration="2089000" />
       <workItem from="1757582552527" duration="5000" />
-      <workItem from="1770280747243" duration="6187000" />
+      <workItem from="1770280747243" duration="6542000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -170,7 +168,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756995105951</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Approfondissement de l'épreuve E5">
+      <option name="closed" value="true" />
+      <created>1770287084057</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1770287084060</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Approfondissement de l'épreuve E5">
+      <option name="closed" value="true" />
+      <created>1770287091244</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1770287091244</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +197,7 @@
     <MESSAGE value="little fixes" />
     <MESSAGE value="edited ExpPro.js" />
     <MESSAGE value="edited BTS.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited BTS.js" />
+    <MESSAGE value="Approfondissement de l'épreuve E5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Approfondissement de l'épreuve E5" />
   </component>
 </project>
