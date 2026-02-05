@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio BTS</title>
+    <link rel="stylesheet" href="Assets/StyleSheets/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="Assets/Images/star.png">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="navBar">
+    <img src="Assets/Images/homeButton.png" class="homeButton" alt="Home Button" />
+
+    <div class="navBarLinks">
+        <a href="index.html#bts">BTS</a>
+        <a href="epreuve5.html">Epreuve 5</a>
+        <a href="epreuve6.html">Epreuve 6</a>
+        <a href="index.html#entreprise">Entreprise</a>
+        <a href="index.html#expPro">Expériences professionnelles</a>
+        <a href="veille.html">Veille Technologique</a>
+    </div>
+</div>
+
+<div class="container" id="epreuves">
+    <div class="E5">
+        <div class="content">
+            <div class="btsTitle">
+                <img src="Assets/Images/star.png" class="star" alt="Star">
+                <h2>Epreuve 5: Support et mise à disposition de services informatiques</h2>
+            </div>
+
+            <div class="terminal-card">
+                <div class="terminal-header">
+                    <span class="terminal-title">Objectifs</span>
+                    <div class="terminal-buttons">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="terminal-body">
+                    <p>Cette épreuve vise à évaluer chez la personne candidate l’acquisition des compétences dans le cadre
+                        du "Support et mise à disposition de services informatiques".</p>
+                </div>
+            </div>
+
+            <h3>Modalités d'évaluation:</h3>
+
+            <div class="card-content">
+                <ul class="cyber-list">
+                    <li>Durée : 40 minutes</li>
+                    <li>Coefficient : 4</li>
+                    <li>Phase 1: Présentation de 10 minutes maximum du parcours de professionnalisation</li>
+                    <li>Phase 2: Entretien de 30 minutes avec le jury pour approfondir les réalisations</li>
+                </ul>
+            </div>
+
+            <br>
+            <embed src="Assets/PDFs/tableauSynthese.pdf" width="100%" height="600px" />
+            <br>
+
+            <div>
+                <a class="btn" target="_blank" href="Assets/PDFs/tableauSynthese.pdf">Voir mon tableau de synthèse</a>
+            </div>
+        </div>
+
+        <section>
+            <div class="btsTitle" id="blocComp">
+                <img src="Assets/Images/star.png" class="star" alt="Star">
+                <h2>Détail des réalisations professionnelles par bloc de compétences</h2>
+            </div>
+            <ul class="cyber-listBC">
+                <li><a href="BlocCompetences/GererPat.html"> Bloc 1 - Gérer le patrimoine informatique</a></li><br>
+                <li><a href="BlocCompetences/RepInc.html"> Bloc 2 - Répondre aux incidents et aux demandes d’assistance et d’évolution</a></li><br>
+                <li><a href="BlocCompetences/DevPres.html"> Bloc 3 - Développer la présence en ligne de l’organisation</a></li><br>
+                <li><a href="BlocCompetences/TravProj.html"> Bloc 4 - Travailler en mode projet</a></li><br>
+                <li><a href="BlocCompetences/MettreDis.html"> Bloc 5 - Mettre à disposition des utilisateurs un service informatique</a></li><br>
+                <li><a href="BlocCompetences/OrgDevPro.html"> Bloc 6 - Organiser son développement professionnel</a></li>
+            </ul>
+        </section>
+
+
+    </div>
+</div>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>© 2026 Anissa Dahabi</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script>
+    const homeButton = document.querySelector('.homeButton');
+
+    homeButton.addEventListener('click', () => {
+        window.location.href = "index.html#home";
+    });
+
+</script>
+
+</body>
+</html>
+
+
+
