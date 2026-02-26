@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607cb9c0-ae8e-4c9a-ae86-7f3a8a57a1b0" name="Changes" comment="Approfondissement de l'épreuve E5">
-      <change beforePath="$PROJECT_DIR$/BlocCompetences/DevPres.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlocCompetences/DevPres.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlocCompetences/GererPat.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlocCompetences/GererPat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlocCompetences/MettreDis.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlocCompetences/MettreDis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlocCompetences/OrgDevPro.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlocCompetences/OrgDevPro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlocCompetences/RepInc.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlocCompetences/RepInc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlocCompetences/TravProj.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlocCompetences/TravProj.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/epreuve5.html" beforeDir="false" afterPath="$PROJECT_DIR$/epreuve5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/epreuve6.html" beforeDir="false" afterPath="$PROJECT_DIR$/epreuve6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/veille.html" beforeDir="false" afterPath="$PROJECT_DIR$/veille.html" afterDir="false" />
+    <list default="true" id="607cb9c0-ae8e-4c9a-ae86-7f3a8a57a1b0" name="Changes" comment="Google analytics">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "javascript.preferred.runtime.type.id": "node",
@@ -86,7 +78,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.30387.83" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.31033.133" />
       </set>
     </attachedChunks>
   </component>
@@ -102,7 +94,8 @@
       <workItem from="1756992132783" duration="1632000" />
       <workItem from="1756994597268" duration="2089000" />
       <workItem from="1757582552527" duration="5000" />
-      <workItem from="1770280747243" duration="6542000" />
+      <workItem from="1770280747243" duration="7981000" />
+      <workItem from="1771601440733" duration="246000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -184,7 +177,23 @@
       <option name="project" value="LOCAL" />
       <updated>1770287091244</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Google analytics tags">
+      <option name="closed" value="true" />
+      <created>1770287423242</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1770287423242</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Google analytics">
+      <option name="closed" value="true" />
+      <created>1770287795338</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1770287795338</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +207,8 @@
     <MESSAGE value="edited ExpPro.js" />
     <MESSAGE value="edited BTS.js" />
     <MESSAGE value="Approfondissement de l'épreuve E5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Approfondissement de l'épreuve E5" />
+    <MESSAGE value="Google analytics tags" />
+    <MESSAGE value="Google analytics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Google analytics" />
   </component>
 </project>
