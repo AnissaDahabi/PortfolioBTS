@@ -7,7 +7,6 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'G-F61W69NLDE');
     </script>
     <meta charset="UTF-8">
@@ -36,7 +35,7 @@
     <div class="E5">
         <div class="btsTitle">
             <img src="Assets/Images/star.png" class="star" alt="Star">
-            <h2>Epreuve 6: Conception et développement d'applications</h2>
+            <h2>Epreuve 6 : Conception et développement d'applications</h2>
         </div>
 
         <div class="terminal-card">
@@ -49,8 +48,7 @@
                 </div>
             </div>
             <div class="terminal-body">
-                <p>Cette épreuve vise à évaluer chez la personne candidate l’acquisition des compétences dans le cadre
-                    de la "Conception et développement d'applications".</p>
+                <p>Cette épreuve évalue l'acquisition des compétences en conception et développement d'applications à travers deux situations professionnelles : une application web (client léger) et une application de bureau (client lourd).</p>
                 <ul>
                     <li>Concevoir et développer une solution applicative</li>
                     <li>Assurer la maintenance corrective ou évolutive d'une solution applicative</li>
@@ -61,32 +59,24 @@
 
         <div class="grid">
             <div class="card">
-                <h3 class="card-title">Situation 1</h3>
+                <h3 class="card-title">Situation 1 — Client léger</h3>
                 <div class="card-content">
                     <ul class="cyber-list">
-                        <li>Conception d'un site web de gestion de centre médical</li>
-                        <li>Modèle MVC et CRUD</li>
-                        <li>Phase 1: Préparation de 30 minutes suivie d’un entretien de 20 minutes maximum</li>
-                        <li>Phase 2: Préparation d’une heure suivie d’un entretien de 20 minutes maximum</li>
+                        <li>Client léger (application web)</li>
+                        <li>Phase 1 : Préparation de 30 minutes suivie d'un entretien de 20 minutes maximum</li>
+                        <li>Phase 2 : Préparation d'une heure suivie d'un entretien de 20 minutes maximum</li>
                     </ul>
-                    <div class="badge">PHP</div>
-                    <div class="badge">Base de données</div>
-                    <div class="badge">Déploiement web</div>
                 </div>
             </div>
 
             <div class="card">
-                <h3 class="card-title">Situation 2</h3>
+                <h3 class="card-title">Situation 2 — Client lourd</h3>
                 <div class="card-content">
                     <ul class="cyber-list">
-                        <li>Conception d'une application lourde</li>
-                        <li>Modèle MVC et CRUD</li>
-                        <li>Phase 1: Préparation de 30 minutes suivie d’un entretien de 20 minutes maximum</li>
-                        <li>Phase 2: Préparation d’une heure suivie d’un entretien de 20 minutes maximum</li>
+                        <li>Client lourd (application de bureau)</li>
+                        <li>Phase 1 : Préparation de 30 minutes suivie d'un entretien de 20 minutes maximum</li>
+                        <li>Phase 2 : Préparation d'une heure suivie d'un entretien de 20 minutes maximum</li>
                     </ul>
-                    <div class="badge">JAVA</div>
-                    <div class="badge">Base de données</div>
-                    <div class="badge">Déploiement applicatif</div>
                 </div>
             </div>
         </div>
@@ -103,9 +93,17 @@
             <div class="terminal-body">
                 <div class="timeline">
                     <div class="timeline-item">
-                        <h4>Situation 1 - Client Web</h4>
+                        <h4>Situation 1 — MediCare (Client léger)</h4>
                         <p class="timeline-date">Octobre 2025</p>
-                        <p>Conception d'un site web de gestion de centre médical</p>
+                        <ul class="cyber-list">
+                            <li>Application web de gestion d'un centre médical</li>
+                            <li>Deux rôles distincts : utilisateur (consultation) et administrateur (gestion complète)</li>
+                            <li>Gestion des patients, médecins, consultations et prescriptions</li>
+                            <li>Architecture MVC avec opérations CRUD</li>
+                        </ul>
+                        <div class="badge">PHP</div>
+                        <div class="badge">MySQL</div>
+                        <div class="badge">Déploiement web</div>
                         <div class="btn-group">
                             <a href="#" class="btn" target="_blank">
                                 Fiche de réalisation professionnelle
@@ -117,14 +115,22 @@
                     </div>
 
                     <div class="timeline-item">
-                        <h4>Situation 2 - Client lourd</h4>
+                        <h4>Situation 2 — Manabi (Client lourd)</h4>
                         <p class="timeline-date">Février 2026</p>
-                        <p>Conception d'une application lourde</p>
+                        <ul class="cyber-list">
+                            <li>Application de bureau dédiée à l'apprentissage des kanjis et du vocabulaire japonais</li>
+                            <li>Système de flashcards avec répétition espacée (SRS) pour optimiser la mémorisation</li>
+                            <li>Gestion complète de la base de donées</li>
+                            <li>Architecture MVC avec opérations CRUD</li>
+                        </ul>
+                        <div class="badge">Python</div>
+                        <div class="badge">PySide6</div>
+                        <div class="badge">SQLite</div>
                         <div class="btn-group">
                             <a href="#" class="btn" target="_blank">
                                 Fiche de réalisation professionnelle
                             </a>
-                            <a href="#" class="btn" target="_blank">
+                            <a href="https://github.com/AnissaDahabi/Manabi-App" class="btn" target="_blank">
                                 Lien GitHub du projet
                             </a>
                         </div>
@@ -147,11 +153,9 @@
 
 <script>
     const homeButton = document.querySelector('.homeButton');
-
     homeButton.addEventListener('click', () => {
         window.location.href = "index.html#home";
     });
-
 </script>
 
 </body>
