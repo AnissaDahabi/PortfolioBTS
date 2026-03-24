@@ -992,6 +992,10 @@ body {
     color: #C5B0E6;
 }
 
+.lien {
+    text-decoration: none;
+}
+
 /* FOOTER */
 footer {
     bottom: 0;
