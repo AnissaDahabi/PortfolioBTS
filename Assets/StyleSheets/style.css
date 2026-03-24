@@ -330,9 +330,9 @@ body {
 }
 
 .buttonContainerBTS {
-    display: flex;
-    justify-content: center;
-    z-index: 2;
+    display:flex;
+    justify-content:center;
+    gap:2em;
     padding: 3em;
     background-color: transparent;
 }

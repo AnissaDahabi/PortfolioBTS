@@ -49,7 +49,7 @@
             </div>
             <div class="terminal-body">
                 <p>Cette épreuve évalue l'acquisition des compétences en conception et développement d'applications à travers deux situations professionnelles : une application web (client léger) et une application de bureau (client lourd).</p>
-                <ul>
+                <ul class="cyber-list2">
                     <li>Concevoir et développer une solution applicative</li>
                     <li>Assurer la maintenance corrective ou évolutive d'une solution applicative</li>
                     <li>Gérer les données</li>
@@ -59,23 +59,23 @@
 
         <div class="grid">
             <div class="card">
-                <h3 class="card-title">Situation 1 — Client léger</h3>
+                <h3 class="card-title">Situation 1 - Client léger</h3>
                 <div class="card-content">
                     <ul class="cyber-list">
                         <li>Client léger (application web)</li>
-                        <li>Phase 1 : Préparation de 30 minutes suivie d'un entretien de 20 minutes maximum</li>
-                        <li>Phase 2 : Préparation d'une heure suivie d'un entretien de 20 minutes maximum</li>
+                        <li>Phase 1 : Préparation de 30 minutes suivie d'un entretien de 20 minutes</li>
+                        <li>Phase 2 : Préparation d'une heure suivie d'un entretien de 20 minutes</li>
                     </ul>
                 </div>
             </div>
 
             <div class="card">
-                <h3 class="card-title">Situation 2 — Client lourd</h3>
+                <h3 class="card-title">Situation 2 - Client lourd</h3>
                 <div class="card-content">
                     <ul class="cyber-list">
                         <li>Client lourd (application de bureau)</li>
-                        <li>Phase 1 : Préparation de 30 minutes suivie d'un entretien de 20 minutes maximum</li>
-                        <li>Phase 2 : Préparation d'une heure suivie d'un entretien de 20 minutes maximum</li>
+                        <li>Phase 1 : Préparation de 30 minutes suivie d'un entretien de 20 minutes</li>
+                        <li>Phase 2 : Préparation d'une heure suivie d'un entretien de 20 minutes</li>
                     </ul>
                 </div>
             </div>
@@ -92,40 +92,54 @@
             </div>
             <div class="terminal-body">
                 <div class="timeline">
+
                     <div class="timeline-item">
-                        <h4>Situation 1 — MediCare (Client léger)</h4>
-                        <p class="timeline-date">Octobre 2025</p>
+                        <h4>Situation 1 - 学 Manabi Web (Client léger)</h4>
+                        <p class="timeline-date">Janvier - Mars 2026</p>
+                        <p>Application web PHP permettant aux élèves de consulter et réserver des cours de japonais. Elle constitue le client léger du projet Manabi, destiné aux utilisateurs finaux.</p>
+
                         <ul class="cyber-list">
-                            <li>Application web de gestion d'un centre médical</li>
-                            <li>Deux rôles distincts : utilisateur (consultation) et administrateur (gestion complète)</li>
-                            <li>Gestion des patients, médecins, consultations et prescriptions</li>
-                            <li>Architecture MVC avec opérations CRUD</li>
+                            <li>Authentification par email / mot de passe</li>
+                            <li>Consultation de la liste des cours (niveau, description, professeur)</li>
+                            <li>Recherche de cours par titre, niveau ou professeur</li>
+                            <li>Visualisation des sessions disponibles pour chaque cours</li>
+                            <li>Réservation d'une session et consultation de ses réservations</li>
+                            <li>Architecture MVC avec accès BDD via PDO et requêtes préparées</li>
                         </ul>
+
                         <div class="badge">PHP</div>
                         <div class="badge">MySQL</div>
-                        <div class="badge">Déploiement web</div>
+                        <div class="badge">Apache</div>
+                        <div class="badge">MVC</div>
+                        <div class="badge">PDO</div>
+
                         <div class="btn-group">
                             <a href="#" class="btn" target="_blank">
                                 Fiche de réalisation professionnelle
                             </a>
-                            <a href="https://github.com/AnissaDahabi/MediCare" class="btn" target="_blank">
+                            <a href="https://github.com/AnissaDahabi/Manabi-Web" class="btn" target="_blank">
                                 Lien GitHub du projet
                             </a>
                         </div>
                     </div>
 
                     <div class="timeline-item">
-                        <h4>Situation 2 — Manabi (Client lourd)</h4>
-                        <p class="timeline-date">Février 2026</p>
+                        <h4>Situation 2 - 学 Manabi App (Client lourd)</h4>
+                        <p class="timeline-date">Janvier - Mars 2026</p>
+                        <p>Application de bureau dédiée à l'administration de la plateforme Manabi. Réservée aux administrateurs et professeurs, elle permet une gestion complète de l'ensemble des données de l'application.</p>
+
                         <ul class="cyber-list">
-                            <li>Application de bureau dédiée à l'apprentissage des kanjis et du vocabulaire japonais</li>
-                            <li>Système de flashcards avec répétition espacée (SRS) pour optimiser la mémorisation</li>
-                            <li>Gestion complète de la base de donées</li>
-                            <li>Architecture MVC avec opérations CRUD</li>
+                            <li>Authentification par email / mot de passe</li>
+                            <li>Accès restreint aux administrateurs et professeurs</li>
+                            <li>Gestion complète des cours : création, modification, suppression, affichage</li>
+                            <li>Gestion des utilisateurs, sessions et réservations</li>
+                            <li>Architecture MVC avec accès BDD via PDO et requêtes préparées</li>
                         </ul>
+
                         <div class="badge">Python</div>
                         <div class="badge">PySide6</div>
-                        <div class="badge">SQLite</div>
+                        <div class="badge">MVC</div>
+
                         <div class="btn-group">
                             <a href="#" class="btn" target="_blank">
                                 Fiche de réalisation professionnelle
@@ -135,6 +149,7 @@
                             </a>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
