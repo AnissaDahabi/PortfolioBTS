@@ -18,10 +18,16 @@
 </head>
 <body>
 
-<div class="navBar">
+<<div class="navBar">
     <img src="Assets/Images/homeButton.png" class="homeButton" alt="Home Button" />
 
-    <div class="navBarLinks">
+    <button class="burgerBtn" id="burgerBtn" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <div class="navBarLinks" id="navBarLinks">
         <a href="index.html#bts">BTS</a>
         <a href="epreuve5.html">Epreuve 5</a>
         <a href="epreuve6.html">Epreuve 6</a>
@@ -385,7 +391,20 @@
     homeButton.addEventListener('click', () => {
         window.location.href = "index.html#home";
     });
+    const burgerBtn = document.getElementById('burgerBtn');
+    const navBarLinks = document.getElementById('navBarLinks');
 
+    burgerBtn.addEventListener('click', () => {
+        burgerBtn.classList.toggle('open');
+        navBarLinks.classList.toggle('open');
+    });
+
+    navBarLinks.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            burgerBtn.classList.remove('open');
+            navBarLinks.classList.remove('open');
+        });
+    });
 </script>
 
 </body>
