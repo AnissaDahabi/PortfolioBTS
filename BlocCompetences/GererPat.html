@@ -7,21 +7,20 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-F61W69NLDE');
   </script>
-  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
   <title>Portfolio BTS</title>
   <link rel="stylesheet" href="../Assets/StyleSheets/style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="../Assets/Images/star.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="Assets/Images/star.png">
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&amp;display=swap" rel="stylesheet">
 </head>
 <body>
 
 <div class="navBar">
-  <img src="Assets/Images/homeButton.png" class="homeButton" alt="Home Button" />
+  <img src="../Assets/Images/homeButton.png" class="homeButton" alt="Home Button" />
 
   <button class="burgerBtn" id="burgerBtn" aria-label="Menu">
     <span></span>
@@ -30,12 +29,12 @@
   </button>
 
   <div class="navBarLinks" id="navBarLinks">
-    <a href="index.html#bts">BTS</a>
-    <a href="epreuve5.html">Epreuve 5</a>
-    <a href="epreuve6.html">Epreuve 6</a>
-    <a href="index.html#entreprise">Entreprise</a>
-    <a href="index.html#expPro">Expériences professionnelles</a>
-    <a href="veille.html">Veille Technologique</a>
+    <a href="../index.html#bts">BTS</a>
+    <a href="../epreuve5.html">Epreuve 5</a>
+    <a href="../epreuve6.html">Epreuve 6</a>
+    <a href="../index.html#entreprise">Entreprise</a>
+    <a href="../index.html#expPro">Expériences professionnelles</a>
+    <a href="../veille.html">Veille Technologique</a>
   </div>
 </div>
 
@@ -58,41 +57,103 @@
       <div class="terminal-buttons"><span></span><span></span><span></span></div>
     </div>
     <div class="terminal-body">
-
       <div class="timeline">
-
         <div class="timeline-item">
-          <h4>Recensement d'un parc informatique avec GLPI</h4>
-          <p class="timeline-date">Octobre 2025</p>
+          <h4>Installation et configuration de GLPI pour recenser l'inventaire</h4>
+          <p class="timeline-date">Septembre 2025</p>
+          <h4>Contexte:</h4>
+          <p>
+            Dans le cadre d'un TP du cours de Support et mise à disposition de services informatiques,
+            j'ai déployé une solution GLPI sur une machine virtuelle Debian afin d'automatiser le recensement des
+            équipements (postes, serveurs, périphériques, logiciels) et centraliser les informations
+            d'inventaire au sein d'une interface web.
+          </p>
 
-          <p>Lors d'un TP en cours de Support et Administration des systèmes, j’ai utilisé GLPI pour inventorier 
-            l’ensemble du parc informatique : postes de travail, périphériques, logiciels installés et informations 
-            matérielles.</p>
+          <h4>Démarche suivie:</h4>
+          <h4>1. Prérequis Système</h4>
+          <ul class="cyber-list2">
+            <li>Serveur Web Apache2</li>
+            <li>Base de données MariaDB</li>
+            <li>PHP 8.x avec extensions : curl, gd, mbstring, xml, zip, intl, mysql</li>
+          </ul>
+
+          <h4>2. Installation de l'environnement (Debian)</h4>
+          <pre><code># Mise à jour du système
+apt update && apt upgrade -y
+
+# Installation Apache, PHP et extensions
+apt install apache2 mariadb-server -y
+apt install php libapache2-mod-php php-mysql php-curl php-gd php-intl php-zip php-xml php-mbstring -y
+
+# Activation d'Apache
+systemctl enable apache2
+systemctl start apache2
+
+# Sécurisation MariaDB
+mysql_secure_installation</code></pre>
+
+          <h4>3. Configuration de la Base de Données</h4>
+          <pre><code># Création de la base GLPI
+mysql -u root -p
+
+CREATE DATABASE glpi CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE USER 'glpi'@'localhost' IDENTIFIED BY 'mot_de_passe_securise';
+GRANT ALL PRIVILEGES ON glpi.* TO 'glpi'@'localhost';
+FLUSH PRIVILEGES;
+EXIT;</code></pre>
+
+          <h4>4. Installation de GLPI</h4>
+          <pre><code># Téléchargement
+cd /var/www/html/
+wget https://github.com/glpi-project/glpi/releases/download/10.0.15/glpi-10.0.15.tgz
+
+# Extraction
+tar -xvzf glpi-10.0.15.tgz
+
+# Droits
+chown -R www-data:www-data glpi
+chmod -R 755 glpi
+
+# Activation du module rewrite
+a2enmod rewrite
+systemctl restart apache2</code></pre>
+
+          <p>
+            L'installation finale s'effectue via l'interface web
+            (<code>http://IP_SERVEUR/glpi</code>) en renseignant les paramètres de connexion à la base de données.
+            Après installation, le dossier <code>/install</code> est supprimé pour des raisons de sécurité.
+          </p>
+
+          <h4>5. Mise en place de l'inventaire automatique</h4>
+          <p>
+            Afin d'automatiser la remontée des informations matérielles et logicielles,
+            j'ai configuré l'agent GLPI Inventory :
+          </p>
+
+          <ul class="cyber-list2">
+            <li>Activation du plugin <strong>GLPI Inventory</strong> via la Marketplace.</li>
+            <li>Déploiement de l'agent GLPI sur les postes clients.</li>
+            <li>Configuration du serveur cible :</li>
+          </ul>
+
+          <pre><code>glpi-agent --server http://IP_SERVEUR/glpi</code></pre>
+
+          <p>
+            Les équipements remontent automatiquement dans l'interface GLPI avec :
+          </p>
+
+          <ul class="cyber-list2">
+            <li>Configuration matérielle (CPU, RAM, stockage)</li>
+            <li>Logiciels installés</li>
+            <li>Adresse IP et informations réseau</li>
+            <li>Numéros de série et état du matériel</li>
+          </ul>
+          <br>
+          <div style="text-align: center;">
+            <img src="../Assets/Images/glpiCE.png" height="250">
+          </div>
+          <br>
           <div class="badge">Réalisation en cours de formation</div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="terminal-card">
-    <div class="terminal-header">
-      <span class="terminal-title">Compétence 2 - Exploiter des référentiels, normes et standards adoptés par le prestataire informatique</span>
-      <div class="terminal-buttons"><span></span><span></span><span></span></div>
-    </div>
-    <div class="terminal-body">
-
-      <div class="timeline">
-
-        <div class="timeline-item">
-          <h4>Respect des standards internes via Entra ID et documentation Confluence</h4>
-          <p class="timeline-date">De Septembre 2024 à aujourd'hui</p>
-
-          <p>J’ai appliqué les référentiels et standards internes définis dans 
-            la documentation Confluence, notamment les procédures de gestion des identités dans Entra ID. 
-            J’ai respecté les nomenclatures officielles lors de la création de groupes, de policies et de ressources 
-            (VM, applications), ainsi que les règles de sécurité associées. Cela m’a permis de garantir une gestion 
-            cohérente, conforme et standardisée des ressources numériques..</p>
-          <div class="badge">Réalisation en milieu professionnel</div>
         </div>
       </div>
     </div>
@@ -104,15 +165,12 @@
       <div class="terminal-buttons"><span></span><span></span><span></span></div>
     </div>
     <div class="terminal-body">
-
       <div class="timeline">
-
         <div class="timeline-item">
-          <h4>Revue des habilitations en vue de la loi DORA</h4>
+          <h4>Revue des habilitations (Loi DORA)</h4>
           <p class="timeline-date">Juillet 2025</p>
-
-          <p>J’ai mené une revue complète des habilitations des utilisateurs sur plusieurs 
-            applications critiques de l’entreprise (BO, CRM, GED, Talkdesk). Cette démarche s’inscrit dans les exigences 
+          <p>J’ai mené une revue complète des habilitations des utilisateurs sur plusieurs
+            applications critiques de l’entreprise (BO, CRM, GED, Talkdesk). Cette démarche s’inscrit dans les exigences
             de la loi DORA, qui impose un contrôle renforcé des accès aux systèmes d’information essentiels.</p>
           <div class="badge">Réalisation en milieu professionnel</div>
         </div>
@@ -126,15 +184,12 @@
       <div class="terminal-buttons"><span></span><span></span><span></span></div>
     </div>
     <div class="terminal-body">
-
       <div class="timeline">
-
         <div class="timeline-item">
           <h4>Assurer la continuité des services via des patch management</h4>
-          <p class="timeline-date">De septembre 2025 à Janvier 2026</p>
-
-          <p>J’ai assuré la continuité du service en vérifiant que les postes et serveurs disposaient bien des mises 
-            à jour critiques. J’ai identifié les correctifs manquants et planifié leur déploiement afin de maintenir 
+          <p class="timeline-date">Septembre 2025 - Janvier 2026</p>
+          <p>J’ai assuré la continuité du service en vérifiant que les postes et serveurs disposaient bien des mises
+            à jour critiques. J’ai identifié les correctifs manquants et planifié leur déploiement afin de maintenir
             la sécurité et le bon fonctionnement des services.</p>
           <div class="badge">Réalisation en milieu professionnel</div>
         </div>
@@ -148,16 +203,13 @@
       <div class="terminal-buttons"><span></span><span></span><span></span></div>
     </div>
     <div class="terminal-body">
-
       <div class="timeline">
-
         <div class="timeline-item">
           <h4>Restauration de fichiers sur SharePoint et OneDrive</h4>
-          <p class="timeline-date">De septembre 2024 à Août 2025</p>
-
-          <p>J’ai restauré des fichiers supprimés ou modifiés par erreur sur SharePoint 
-            et OneDrive. J’ai utilisé l’historique des versions et la corbeille des espaces collaboratifs pour récupérer 
-            les documents demandés par les utilisateurs, ce qui a permis d’assurer la continuité de leur travail et la 
+          <p class="timeline-date">Septembre 2024 - Août 2025</p>
+          <p>’ai restauré des fichiers supprimés ou modifiés par erreur sur SharePoint
+            et OneDrive. J’ai utilisé l’historique des versions et la corbeille des espaces collaboratifs pour récupérer
+            les documents demandés par les utilisateurs, ce qui a permis d’assurer la continuité de leur travail et la
             protection des données.</p>
           <div class="badge">Réalisation en milieu professionnel</div>
         </div>
@@ -171,18 +223,29 @@
       <div class="terminal-buttons"><span></span><span></span><span></span></div>
     </div>
     <div class="terminal-body">
-
       <div class="timeline">
-
         <div class="timeline-item">
-          <h4>Sensibilisation des utilisateurs aux règles d’usage lors des onboardings</h4>
-          <p class="timeline-date">De Septembre 2024 à Janvier 2025</p>
+          <h4>Onboarding et sensibilisation des utilisateurs</h4>
+          <p class="timeline-date">Septembre 2024 - Janvier 2025</p>
+          <h4>Contexte</h4>
+          <p>
+            Dans le cadre de mon alternance, j’ai été intégrée au processus d'accueil des nouveaux collaborateurs.
+            L'objectif principal était de leur fournir leur matériel informatique, de m'assurer qu'ils maîtrisent
+            les outils mis à leur disposition et qu'ils respectent la charte informatique de l'entreprise dès leur arrivée.
+          </p>
 
-          <p>J’ai présenté aux nouveaux collaborateurs les règles d’utilisation des 
-            ressources numériques lors des sessions d’onboarding. J’ai expliqué les bonnes pratiques liées à la 
-            cybersécurité, à l’utilisation du matériel informatique et aux services Microsoft 365. J’ai également 
-            rappelé ces règles lors de sessions dédiées à la sécurité afin d’assurer une utilisation conforme et 
-            responsable des outils mis à disposition.</p>
+          <h4>Démarche suivie</h4>
+
+          <ul class="cyber-list2">
+            <li>
+              <strong>Préparation technique de l'onboarding:</strong> Configuration du matériel, création du compte dans l'AD,
+              et attribution des accès demandés par le responsable du nouvel arrivant.
+            </li>
+            <li>
+              <strong>Session d'onboarding :</strong> Présentation personnalisée de l'environnement de travail,
+              explication des règles d’utilisation du matériel informatique et remise de la documentation interne.
+            </li>
+          </ul>
           <div class="badge">Réalisation en milieu professionnel</div>
         </div>
       </div>
@@ -205,7 +268,6 @@
 
   <script>
     const homeButton = document.querySelector('.homeButton');
-
     homeButton.addEventListener('click', () => {
       window.location.href = "index.html#home";
     });
@@ -225,8 +287,6 @@
     });
   </script>
 
-
 </div>
-
 </body>
 </html>

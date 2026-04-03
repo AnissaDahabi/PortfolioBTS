@@ -1021,6 +1021,12 @@ footer p {
     text-align: center;
 }
 
+code {
+    background-color: #332941;
+    border-radius: 3px;
+    font-family: "Courier New", monospace;
+    padding: 0 3px;
+}
 
 /* RESPONSIVE */
 
