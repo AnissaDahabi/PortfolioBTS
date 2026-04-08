@@ -21,7 +21,7 @@
 <body>
 
 <div class="navBar">
-    <img src="Assets/Images/homeButton.png" class="homeButton" alt="Home Button" />
+    <img src="../Assets/Images/homeButton.png" class="homeButton" alt="Home Button" />
 
     <button class="burgerBtn" id="burgerBtn" aria-label="Menu">
         <span></span>
@@ -140,7 +140,7 @@
         const homeButton = document.querySelector('.homeButton');
 
         homeButton.addEventListener('click', () => {
-            window.location.href = "index.html#home";
+            window.location.href = "../index.html#home";
         });
         const burgerBtn = document.getElementById('burgerBtn');
         const navBarLinks = document.getElementById('navBarLinks');
