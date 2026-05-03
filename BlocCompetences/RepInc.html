@@ -7,7 +7,6 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'G-F61W69NLDE');
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,13 +21,11 @@
 
 <div class="navBar">
     <img src="../Assets/Images/homeButton.png" class="homeButton" alt="Home Button" />
-
     <button class="burgerBtn" id="burgerBtn" aria-label="Menu">
         <span></span>
         <span></span>
         <span></span>
     </button>
-
     <div class="navBarLinks" id="navBarLinks">
         <a href="../index.html#bts">BTS</a>
         <a href="../epreuve5.html">Epreuve 5</a>
@@ -49,32 +46,62 @@
 
     <div class="title">
         <img src="../Assets/Images/star.png" class="star" alt="Star">
-        <h2>Bloc 2 - Répondre aux incidents et aux demandes d’assistance et d’évolution</h2>
+        <h2>Bloc 2 - Répondre aux incidents et aux demandes d'assistance et d'évolution</h2>
     </div>
 
     <div class="terminal-card">
+        <div class="terminal-header">
+            <span class="terminal-title">Résumé - Bloc 2</span>
+            <div class="terminal-buttons"><span></span><span></span><span></span></div>
+        </div>
+        <div class="terminal-body">
+            <div class="summary-grid">
+
+                <a href="#comp1" class="summary-item">
+                    <p class="summary-title">Collecter, suivre et orienter des demandes</p>
+                    <p class="summary-text">Gestion de tickets N1/N2 via Jira : qualification, résolution, escalade et documentation des procédures sur Confluence.</p>
+                </a>
+
+                <a href="#comp2" class="summary-item">
+                    <p class="summary-title">Traiter des demandes concernant les services réseau et système</p>
+                    <p class="summary-text">Incidents d'accès et de connexion (Entra ID, MFA, VPN, SharePoint), gestion des droits RBAC, configuration de postes pour les nouveaux arrivants.</p>
+                </a>
+
+                <a href="#comp3" class="summary-item summary-item-full">
+                    <p class="summary-title">Traiter des demandes concernant les applications</p>
+                    <p class="summary-text">Analyse et qualification des demandes d'ajout d'applications : vérification RGPD, prévention du shadow IT.</p>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="title">
+        <img src="../Assets/Images/star.png" class="star" alt="Star">
+        <h2>Détail des compétences</h2>
+    </div>
+
+    <div class="terminal-card" id="comp1">
         <div class="terminal-header">
             <span class="terminal-title">Compétence 1 - Collecter, suivre et orienter des demandes</span>
             <div class="terminal-buttons"><span></span><span></span><span></span></div>
         </div>
         <div class="terminal-body">
-
             <div class="timeline">
-
                 <div class="timeline-item">
                     <h4>Gestion et résolution de tickets utilisateurs (niveau 1 et 2)</h4>
                     <p class="timeline-date">Septembre 2024 - Août 2025</p>
 
                     <h4>Contexte :</h4>
                     <p>
-                        Dans le cadre de mon alternance au support, j’ai assuré
-                        la prise en charge et le suivi des tickets utilisateurs via l’outil Jira.
-                        Ces demandes concernaient des incidents ou des besoins d’assistance
+                        Dans le cadre de mon alternance au support, j'ai assuré
+                        la prise en charge et le suivi des tickets utilisateurs via l'outil Jira.
+                        Ces demandes concernaient des incidents ou des besoins d'assistance
                         liés aux outils, aux accès ou aux postes de travail.
                     </p>
 
                     <p>
-                        L’objectif était d’apporter une réponse rapide et adaptée aux utilisateurs
+                        L'objectif était d'apporter une réponse rapide et adaptée aux utilisateurs
                         tout en garantissant la traçabilité des demandes et le respect des procédures internes.
                     </p>
 
@@ -83,15 +110,15 @@
                     <h4>1. Collecte et analyse des demandes</h4>
                     <ul class="cyber-list2">
                         <li>Réception des tickets via Jira.</li>
-                        <li>Analyse du besoin ou de l’incident signalé.</li>
-                        <li>Qualification du ticket (incident, demande d’assistance, ...).</li>
+                        <li>Analyse du besoin ou de l'incident signalé.</li>
+                        <li>Qualification du ticket (incident, demande d'assistance, ...).</li>
                     </ul>
 
                     <h4>2. Traitement des incidents de niveau 1 et 2</h4>
                     <ul class="cyber-list2">
                         <li>Résolution des incidents simples (accès, configuration, outils utilisateurs).</li>
                         <li>Diagnostic des incidents plus complexes nécessitant une analyse approfondie.</li>
-                        <li>Tests et validation de la solution avec l’utilisateur.</li>
+                        <li>Tests et validation de la solution avec l'utilisateur.</li>
                     </ul>
 
                     <h4>3. Orientation des demandes complexes</h4>
@@ -108,7 +135,7 @@
 
                     <h4>Conclusion :</h4>
                     <p>
-                        La gestion structurée des tickets utilisateurs permet d’assurer
+                        La gestion structurée des tickets utilisateurs permet d'assurer
                         un support efficace, un meilleur suivi des demandes
                         et une amélioration continue des services proposés.
                     </p>
@@ -119,7 +146,7 @@
         </div>
     </div>
 
-    <div class="terminal-card">
+    <div class="terminal-card" id="comp2">
         <div class="terminal-header">
             <span class="terminal-title">Compétence 2 - Traiter des demandes concernant les services réseau et système, applicatifs</span>
             <div class="terminal-buttons"><span></span><span></span><span></span></div>
@@ -127,28 +154,27 @@
         <div class="terminal-body">
 
             <div class="timeline">
-
                 <div class="timeline-item">
                     <h4>Prise en charge des demandes liées aux accès, au réseau et aux services Microsoft 365</h4>
                     <p class="timeline-date">Septembre 2024 - Août 2025</p>
 
                     <h4>Contexte :</h4>
                     <p>
-                        Dans le cadre du support informatique, j’ai traité des demandes utilisateurs
+                        Dans le cadre du support informatique, j'ai traité des demandes utilisateurs
                         liées aux services réseau, système et applicatifs, notamment
-                        les accès, les connexions réseau et l’environnement Microsoft 365.
+                        les accès, les connexions réseau et l'environnement Microsoft 365.
                     </p>
 
                     <p>
-                        Ces interventions avaient pour objectif de rétablir l’accès aux services
-                        et d’assurer la continuité de l’activité des utilisateurs.
+                        Ces interventions avaient pour objectif de rétablir l'accès aux services
+                        et d'assurer la continuité de l'activité des utilisateurs.
                     </p>
 
                     <h4>Démarche suivie :</h4>
 
-                    <h4>1. Diagnostic des problèmes d’accès et de connexion</h4>
+                    <h4>1. Diagnostic des problèmes d'accès et de connexion</h4>
                     <ul class="cyber-list2">
-                        <li>Analyse des incidents liés à l’authentification (Entra ID, MFA).</li>
+                        <li>Analyse des incidents liés à l'authentification (Entra ID, MFA).</li>
                         <li>Prise en charge des problèmes de connexion VPN et Wi-Fi.</li>
                         <li>Prise en charge des problèmes de connexion au sharepoint via CloudDriveMapper.</li>
                         <li>Vérification des paramètres réseau du poste utilisateur.</li>
@@ -160,7 +186,6 @@
                         <li>Gestion des groupes et des accès aux services Microsoft 365.</li>
                         <li>Application des règles de sécurité et du RBAC.</li>
                     </ul>
-
 
                     <h4>Conclusion :</h4>
                     <p>
@@ -176,7 +201,6 @@
             <br>
 
             <div class="timeline">
-
                 <div class="timeline-item">
                     <h4>Configuration des postes de travail suite à ticket utilisateur</h4>
                     <p class="timeline-date">Septembre 2024 - Août 2025</p>
@@ -184,14 +208,14 @@
                     <h4>Contexte :</h4>
                     <p>
                         Dans le cadre de mon alternance au sein du service informatique,
-                        j’ai pris en charge des tickets utilisateurs liés à l’arrivée de nouveaux collaborateurs
+                        j'ai pris en charge des tickets utilisateurs liés à l'arrivée de nouveaux collaborateurs
                         ou à des changements de poste.
                         Ces tickets concernaient la création de comptes utilisateurs
                         et la configuration complète des postes de travail.
                     </p>
 
                     <p>
-                        L’objectif était de fournir aux utilisateurs un poste opérationnel,
+                        L'objectif était de fournir aux utilisateurs un poste opérationnel,
                         sécurisé et conforme aux standards internes,
                         tout en respectant les procédures de support et de validation.
                     </p>
@@ -200,21 +224,21 @@
 
                     <h4>1. Analyse et validation du ticket</h4>
                     <ul class="cyber-list2">
-                        <li>Prise en charge du ticket via l’outil de support.</li>
+                        <li>Prise en charge du ticket via l'outil de support.</li>
                         <li>Analyse de la demande (nouvel arrivant, équipe concernée).</li>
                         <li>Vérification de la validation par le responsable hiérarchique.</li>
                     </ul>
 
                     <h4>2. Création du compte utilisateur</h4>
                     <ul class="cyber-list2">
-                        <li>Création du compte dans l’Active Directory / Entra ID.</li>
+                        <li>Création du compte dans l'Active Directory / Entra ID.</li>
                         <li>Affectation aux groupes et services nécessaires.</li>
                         <li>Application du principe du moindre privilège.</li>
                     </ul>
 
                     <h4>3. Configuration du poste de travail</h4>
                     <ul class="cyber-list2">
-                        <li>Paramétrage du poste pour l’accès aux services réseau.</li>
+                        <li>Paramétrage du poste pour l'accès aux services réseau.</li>
                         <li>Configuration de la messagerie et des outils collaboratifs.</li>
                         <li>Vérification de la conformité du poste aux standards internes.</li>
                     </ul>
@@ -222,63 +246,58 @@
                     <h4>4. Installation et paramétrage des applications</h4>
                     <ul class="cyber-list2">
                         <li>Installation des applications professionnelles autorisées.</li>
-                        <li>Configuration des outils nécessaires à l’activité de l’utilisateur.</li>
+                        <li>Configuration des outils nécessaires à l'activité de l'utilisateur.</li>
                         <li>Tests de fonctionnement avant remise du poste.</li>
                     </ul>
 
                     <h4>5. Validation et clôture du ticket</h4>
                     <ul class="cyber-list2">
                         <li>Vérification du bon fonctionnement du poste.</li>
-                        <li>Confirmation avec l’utilisateur que la demande est conforme.</li>
+                        <li>Confirmation avec l'utilisateur que la demande est conforme.</li>
                         <li>Clôture du ticket avec traçabilité des actions réalisées.</li>
                     </ul>
 
                     <h4>Conclusion :</h4>
                     <p>
                         La configuration des postes de travail suite à un ticket utilisateur
-                        permet d’assurer une mise à disposition rapide et sécurisée
-                        des ressources informatiques nécessaires à l’activité.
+                        permet d'assurer une mise à disposition rapide et sécurisée
+                        des ressources informatiques nécessaires à l'activité.
                     </p>
 
                     <div class="badge">Réalisation en milieu professionnel</div>
-
                 </div>
-
             </div>
         </div>
     </div>
 
-    <div class="terminal-card">
+    <div class="terminal-card" id="comp3">
         <div class="terminal-header">
             <span class="terminal-title">Compétence 3 - Traiter des demandes concernant les applications</span>
             <div class="terminal-buttons"><span></span><span></span><span></span></div>
         </div>
         <div class="terminal-body">
-
             <div class="timeline">
-
                 <div class="timeline-item">
-                    <h4>Analyse des demandes d’applications et vérification de leur conformité</h4>
+                    <h4>Analyse des demandes d'applications et vérification de leur conformité</h4>
                     <p class="timeline-date">Septembre 2025 - Juin 2026</p>
 
                     <h4>Contexte :</h4>
                     <p>
-                        Dans le cadre du support et de l’évolution des services,
-                        j’ai analysé les demandes formulées par les utilisateurs
-                        concernant l’ajout ou l’utilisation de nouvelles applications.
+                        Dans le cadre du support et de l'évolution des services,
+                        j'ai analysé les demandes formulées par les utilisateurs
+                        concernant l'ajout ou l'utilisation de nouvelles applications.
                     </p>
 
                     <p>
-                        L’objectif était de s’assurer que ces outils respectaient
+                        L'objectif était de s'assurer que ces outils respectaient
                         les exigences de sécurité, de conformité réglementaire
-                        et la politique interne de l’entreprise.
+                        et la politique interne de l'entreprise.
                     </p>
 
                     <h4>Démarche suivie :</h4>
-
                     <ul class="cyber-list2">
-                        <li>Analyse du besoin métier exprimé par l’utilisateur.</li>
-                        <li>Vérification de l’hébergement des données (préférence UE).</li>
+                        <li>Analyse du besoin métier exprimé par l'utilisateur.</li>
+                        <li>Vérification de l'hébergement des données (préférence UE).</li>
                         <li>Contrôle de la conformité RGPD.</li>
                         <li>Évaluation des risques de sécurité.</li>
                         <li>Recherche de solutions internes existantes pour éviter le shadow IT.</li>
@@ -287,7 +306,7 @@
                     <h4>Conclusion :</h4>
                     <p>
                         Cette activité permet de garantir une utilisation maîtrisée
-                        et sécurisée des applications au sein de l’entreprise.
+                        et sécurisée des applications au sein de l'entreprise.
                     </p>
 
                     <div class="badge">Réalisation en milieu professionnel</div>
@@ -295,7 +314,6 @@
             </div>
         </div>
     </div>
-
 
     <ul class="cyber-listBC">
         <li><a href="../epreuve5.html#blocComp"> Retourner au tableau de compétences</a></li>
@@ -313,18 +331,15 @@
 
     <script>
         const homeButton = document.querySelector('.homeButton');
-
         homeButton.addEventListener('click', () => {
             window.location.href = "../index.html#home";
         });
         const burgerBtn = document.getElementById('burgerBtn');
         const navBarLinks = document.getElementById('navBarLinks');
-
         burgerBtn.addEventListener('click', () => {
             burgerBtn.classList.toggle('open');
             navBarLinks.classList.toggle('open');
         });
-
         navBarLinks.querySelectorAll('a').forEach(link => {
             link.addEventListener('click', () => {
                 burgerBtn.classList.remove('open');
@@ -333,8 +348,6 @@
         });
     </script>
 
-
 </div>
-
 </body>
 </html>

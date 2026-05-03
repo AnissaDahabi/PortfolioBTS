@@ -982,6 +982,10 @@ body {
     color: #C498FC;
 }
 
+.lien:hover {
+    color: #C498FC;
+}
+
 .title {
     background-color: transparent;
     display: flex;
@@ -1027,6 +1031,58 @@ code {
     font-family: "Courier New", monospace;
     padding: 0 3px;
 }
+
+/* Résumés */
+
+.summary-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.summary-item {
+    background: rgba(255, 255, 255, 0.02);
+    border-left: 2px solid #AFA9EC;
+    border-right: 0.5px solid rgba(255, 255, 255, 0.1);
+    border-top: 0.5px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0 6px 6px 0;
+    padding: 12px 15px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.summary-item:hover {
+    background: rgba(175, 169, 236, 0.1);
+    transform: translateX(5px);
+}
+
+.summary-title {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+    color: #C5B0E6;
+    line-height: 1.4;
+    background-color: transparent;
+}
+
+.summary-text {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+    color: #8892b0;
+    background-color: transparent;
+
+}
+
+@media (max-width: 600px) {
+    .summary-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 
 /* RESPONSIVE */
 
