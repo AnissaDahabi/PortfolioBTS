@@ -4,16 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607cb9c0-ae8e-4c9a-ae86-7f3a8a57a1b0" name="Changes" comment="fixed a few things">
-      <change afterPath="$PROJECT_DIR$/Assets/Images/lantique.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/logitech.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/testGrp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PDFs/projetjava.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PDFs/rapportGA.pdf" afterDir="false" />
+    <list default="true" id="607cb9c0-ae8e-4c9a-ae86-7f3a8a57a1b0" name="Changes" comment="added bibliographie.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlocCompetences/DevPres.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlocCompetences/DevPres.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlocCompetences/MettreDis.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlocCompetences/MettreDis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlocCompetences/TravProj.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlocCompetences/TravProj.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/devLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/glpiCE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/javaCRUD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/lantique.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/linkedin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/logitech.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/medicare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/pacman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/serverLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/testGrp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PDFs/ficheRealisationClientLeger.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PDFs/ficheRealisationClientLourd.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PDFs/projetjava.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PDFs/rapportGA.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PDFs/tableauSynthese.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StyleSheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StyleSheets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlocCompetences/DevPres.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlocCompetences/GererPat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlocCompetences/MettreDis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlocCompetences/OrgDevPro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlocCompetences/RepInc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlocCompetences/TravProj.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bibliographie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/epreuve5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/epreuve6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veille.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +62,69 @@
     &quot;accountId&quot;: &quot;75037d06-f8b0-4893-9764-9e8f48f7689a&quot;
   }
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000181562085" />
+      <entry key="S5" value="1.0012140184930403" />
+      <entry key="S10" value="1.0492750630804186" />
+      <entry key="S30" value="1.5819633357981908" />
+      <entry key="S60" value="2.0788640831291296" />
+      <entry key="M2" value="2.473045007728346" />
+      <entry key="M5" value="3.1875753236230793" />
+      <entry key="M10" value="5.763862414779666" />
+      <entry key="M15" value="9.323131696492561" />
+      <entry key="M30" value="25.352354524715665" />
+      <entry key="H1" value="64.59229621616848" />
+      <entry key="H2" value="117.3233978567517" />
+      <entry key="H4" value="162.59830001107562" />
+      <entry key="D1" value="216.07246834363855" />
+      <entry key="W1" value="227.10138571075146" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="1.5514270316009888E-179" />
+      <entry key="S10" value="6.638648032202759E-90" />
+      <entry key="S30" value="4.9724063630353705E-30" />
+      <entry key="S60" value="4.914342943530932E-15" />
+      <entry key="M2" value="1.5617579110277818E-7" />
+      <entry key="M5" value="0.004991798253006936" />
+      <entry key="M10" value="0.1634735766415812" />
+      <entry key="M15" value="0.5504942134774256" />
+      <entry key="M30" value="2.2623272597494637" />
+      <entry key="H1" value="5.762130252310951" />
+      <entry key="H2" value="10.112820696724516" />
+      <entry key="H4" value="13.746732443420928" />
+      <entry key="D1" value="17.9821516199756" />
+      <entry key="W1" value="18.85063360523337" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.7071067811865476" />
+      <entry key="MS500" value="0.9330329915368074" />
+      <entry key="S2" value="0.9828206151259031" />
+      <entry key="S5" value="0.9942620487207527" />
+      <entry key="S10" value="1.0448964185974037" />
+      <entry key="S30" value="1.5771469056183935" />
+      <entry key="S60" value="2.0748819111327004" />
+      <entry key="M2" value="2.4704078677154726" />
+      <entry key="M5" value="3.190628315401643" />
+      <entry key="M10" value="5.924324519600497" />
+      <entry key="M15" value="9.8694623710763" />
+      <entry key="M30" value="27.607575110660708" />
+      <entry key="H1" value="70.34502538455764" />
+      <entry key="H2" value="127.42774638643552" />
+      <entry key="H4" value="176.3392139348645" />
+      <entry key="D1" value="234.0533433551444" />
+      <entry key="W1" value="245.95182797234298" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -58,6 +141,7 @@
     "Node.js.BTS.js.executor": "Run",
     "Node.js.Entreprise.js.executor": "Run",
     "Node.js.index.js.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -92,7 +176,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.23567.141" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.10315.144" />
       </set>
     </attachedChunks>
   </component>
@@ -120,6 +204,9 @@
       <workItem from="1777553404297" duration="7000" />
       <workItem from="1777740846790" duration="36000" />
       <workItem from="1777740902526" duration="9028000" />
+      <workItem from="1777926145492" duration="77000" />
+      <workItem from="1777926411450" duration="3906000" />
+      <workItem from="1788447614380" duration="11238000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -265,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777826367746</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added bibliographie.html">
+      <option name="closed" value="true" />
+      <created>1777928187022</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1777928187022</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +379,7 @@
     <MESSAGE value="Added pdf" />
     <MESSAGE value="fixed pdf" />
     <MESSAGE value="fixed a few things" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed a few things" />
+    <MESSAGE value="added bibliographie.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="added bibliographie.html" />
   </component>
 </project>
