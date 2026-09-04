@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607cb9c0-ae8e-4c9a-ae86-7f3a8a57a1b0" name="Changes" comment="full refonte du portfolio" />
+    <list default="true" id="607cb9c0-ae8e-4c9a-ae86-7f3a8a57a1b0" name="Changes" comment="little fix">
+      <change afterPath="$PROJECT_DIR$/index-fr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-jp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StyleSheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StyleSheets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,61 +44,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0198186399339177" />
-      <entry key="MS500" value="1.694426101198621" />
-      <entry key="S2" value="3.1280901428558234" />
-      <entry key="S5" value="4.369356648933339" />
-      <entry key="S10" value="5.0669459317943994" />
-      <entry key="S30" value="5.657865032384022" />
-      <entry key="S60" value="5.825772251565027" />
-      <entry key="M2" value="5.967848507334701" />
-      <entry key="M5" value="6.667773679427718" />
-      <entry key="M10" value="8.689940902750589" />
-      <entry key="M15" value="11.622309998667498" />
-      <entry key="M30" value="25.70263698826149" />
-      <entry key="H1" value="62.947790540771514" />
-      <entry key="H2" value="116.16362633790112" />
-      <entry key="H4" value="163.55916983339722" />
-      <entry key="D1" value="220.94176241231847" />
-      <entry key="W1" value="232.93123039925695" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0004250735172344" />
+      <entry key="S2" value="1.1435872943746292" />
+      <entry key="S5" value="1.4600938253124376" />
+      <entry key="S10" value="1.678302163723836" />
+      <entry key="S30" value="1.878651501321256" />
+      <entry key="S60" value="1.9527114631310014" />
+      <entry key="M2" value="2.481268515849007" />
+      <entry key="M5" value="7.3132719033887446" />
+      <entry key="M10" value="15.406654093357133" />
+      <entry key="M15" value="21.567458113084882" />
+      <entry key="M30" value="37.897869775580865" />
+      <entry key="H1" value="74.19800199994505" />
+      <entry key="H2" value="129.57377173416003" />
+      <entry key="H4" value="182.20451628312696" />
+      <entry key="D1" value="249.1452822222532" />
+      <entry key="W1" value="263.5094113598853" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="6.613067556056494E-219" />
-      <entry key="S10" value="1.3706148925600146E-109" />
-      <entry key="S30" value="1.364096876194599E-36" />
-      <entry key="S60" value="2.573977584461478E-18" />
-      <entry key="M2" value="3.574237152067011E-9" />
-      <entry key="M5" value="0.0011017546313730148" />
-      <entry key="M10" value="0.0768000485733296" />
-      <entry key="M15" value="0.3326815464478663" />
-      <entry key="M30" value="1.7587066478995244" />
-      <entry key="H1" value="5.080448573128381" />
-      <entry key="H2" value="9.495805299032597" />
-      <entry key="H4" value="13.320766850498506" />
-      <entry key="D1" value="17.888061514937935" />
-      <entry key="W1" value="18.836511281293753" />
+      <entry key="S5" value="4.1800496674181515E-308" />
+      <entry key="S10" value="3.44591600957825E-154" />
+      <entry key="S30" value="1.8548478665557423E-51" />
+      <entry key="S60" value="9.491531661009673E-26" />
+      <entry key="M2" value="6.863555263525013E-13" />
+      <entry key="M5" value="3.592784702047461E-5" />
+      <entry key="M10" value="0.013868664709559584" />
+      <entry key="M15" value="0.10628634702289015" />
+      <entry key="M30" value="0.994071882546408" />
+      <entry key="H1" value="3.819568050199733" />
+      <entry key="H2" value="8.233564603468931" />
+      <entry key="H4" value="12.403871976416868" />
+      <entry key="D1" value="17.676703921747443" />
+      <entry key="W1" value="18.804554223863736" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9913952121310801" />
-      <entry key="MS500" value="1.68058230927375" />
-      <entry key="S2" value="3.120368066882262" />
-      <entry key="S5" value="4.364931895710245" />
-      <entry key="S10" value="5.064371444594822" />
-      <entry key="S30" value="5.6569061876424405" />
-      <entry key="S60" value="5.82527663810758" />
-      <entry key="M2" value="5.967537738113078" />
-      <entry key="M5" value="6.668346455069273" />
-      <entry key="M10" value="8.76527547901755" />
-      <entry key="M15" value="11.95244156317069" />
-      <entry key="M30" value="27.45580206459004" />
-      <entry key="H1" value="68.01994174596388" />
-      <entry key="H2" value="125.65147214893706" />
-      <entry key="H4" value="176.87429634317976" />
-      <entry key="D1" value="238.82855364554936" />
-      <entry key="W1" value="251.76755042983038" />
+      <entry key="MS100" value="0.6461764153187461" />
+      <entry key="MS500" value="0.9167652522907596" />
+      <entry key="S2" value="1.1195230537635994" />
+      <entry key="S5" value="1.4482200982128026" />
+      <entry key="S10" value="1.671598110003099" />
+      <entry key="S30" value="1.8761824765731838" />
+      <entry key="S60" value="1.9514316577028634" />
+      <entry key="M2" value="2.480417119292982" />
+      <entry key="M5" value="7.312068984233228" />
+      <entry key="M10" value="15.41895241118886" />
+      <entry key="M15" value="21.67177657711557" />
+      <entry key="M30" value="38.8880366667712" />
+      <entry key="H1" value="78.01088291229355" />
+      <entry key="H2" value="137.8001926099429" />
+      <entry key="H4" value="194.6030102987146" />
+      <entry key="D1" value="266.82070921344894" />
+      <entry key="W1" value="282.31377154645554" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -104,35 +110,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Node.js.BTS.js.executor": "Run",
-    "Node.js.Entreprise.js.executor": "Run",
-    "Node.js.index.js.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "javascript.preferred.runtime.type.id": "node",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/aniss/WebstormProjects/MonPortfolio/PortfolioBTS/Assets/Images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "C:\\Users\\aniss\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.BTS.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.Entreprise.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aniss/WebstormProjects/MonPortfolio/PortfolioBTS/Assets/Images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\aniss\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\aniss\WebstormProjects\MonPortfolio\PortfolioBTS\Assets\Images" />
@@ -176,7 +182,8 @@
       <workItem from="1777740902526" duration="9028000" />
       <workItem from="1777926145492" duration="77000" />
       <workItem from="1777926411450" duration="3906000" />
-      <workItem from="1788447614380" duration="11672000" />
+      <workItem from="1788447614380" duration="11971000" />
+      <workItem from="1788490553868" duration="3146000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -338,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788459274291</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="little fix">
+      <option name="closed" value="true" />
+      <created>1788459561173</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1788459561173</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,6 +374,7 @@
     <MESSAGE value="fixed a few things" />
     <MESSAGE value="added bibliographie.html" />
     <MESSAGE value="full refonte du portfolio" />
-    <option name="LAST_COMMIT_MESSAGE" value="full refonte du portfolio" />
+    <MESSAGE value="little fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="little fix" />
   </component>
 </project>
